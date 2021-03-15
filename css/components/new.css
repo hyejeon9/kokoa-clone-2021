@@ -1,0 +1,45 @@
+.new {
+    position: absolute;
+    border-radius: 50%;
+}
+
+.new-red {
+    background-color: var(--red);
+}
+
+.new-green {
+    background-color: var(--green);
+}
+
+.new-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.new-nav {
+    bottom: 18px;
+    left: 18px;
+}
+
+.new-dot__nav {
+    width: 5px;
+    height: 5px;
+    bottom: 28px;
+    left: 32px;
+}
+
+.new-chat {
+    margin-top: 5px;
+    border-radius: 50%;
+}
+
+.new-settings {
+    border-radius: 50%;
+    margin-left: 8px;
+}

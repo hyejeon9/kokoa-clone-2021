@@ -8,38 +8,52 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    
     <div class="status-bar">
         <div class="status-bar__column">
             <span>No Service</span>
-            <i class="fas fa-wifi"></i>
+            <i class="fas fa-wifi fa-sm"></i> 
         </div>
         <div class="status-bar__column">
-            <span>18:43</span>
+            <span>14:28</span>
         </div>
         <div class="status-bar__column">
-            <span>25%</span>
-            <i class="fas fa-battery-quarter fa-lg"></i>
-            <i class="fas fa-bolt"></i>
+            <span>100%</span>
+            <i class="fas fa-battery-full fa-2m"></i>
+            <i class="fas fa-bolt fa-sm"></i>
         </div>
     </div>
 
-    <header class="welcome-header">
-        <h1 class="welcome-header__title">Welcome to Kokoa Clone</h1>
-        <p class="welcome-header__text">
-            If you have a Kokoa Account, log in with your email or phone number.
-        </p>
-    </header>
+    <div class="screen login-screen">
 
-    <form action="friends.html" method="get" id="login-form">
-        <input name="username" type="text" placeholder="Email or phone number" />
-        <input name="password" type="password" placeholder="Password" />
-        <input type="submit" value="Log In" />
-        <a href="#">Find Kokoa Account or Password</a>
-    </form>
+        <header class="welcome-header">
+
+            <h2>Welcome to Kokoa Talk</h2>
+            <span>If you have a Kokoa Account, log in with your email or phone number.</span>
+        
+        </header>
+    
+        <form action="friends.html" method="get" id="login-form">
+    
+            <input name="username" type="text" placeholder="Email or phone number">
+            <input name="password" type="password" placeholder="Password">
+    
+            <input type="submit" value="Log In">
+    
+            <a href="#">Find Kokoa Account or Password</a>
+    
+        </form>
+
+    </div>
+
+    <div id="only-mobile">
+        <span>Your screen is too big.</span>
+    </div>
 
     <script
-    src="https://kit.fontawesome.com/6478f529f2.js"
-    crossorigin="anonymous"
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
     ></script>
+
 </body>
 </html>
